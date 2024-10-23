@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <h1>Mad Lib</h1>
@@ -13,32 +14,37 @@
     </p>
     <div>
       <ol type="I">
-        <li>
+        <li id=>
           Plural Noun:
-          <input type="text" name="" id="" />
+          <input type="text" name="" id="p-noun" />
         </li>
 
         <span>
-          <li>
+          <li >
             Adjective:
-            <input type="text" />
+            <input type="text" id="adj"/>
           </li>
 
           <li>
             Present Tense Verb:
-            <input type="text" />
+            <input type="text" id="verb"/>
           </li>
 
           <li>
             Noun:
-            <input type="text" />
+            <input type="text" id="noun" />
+          </li>
+
+          <li>
+            Second Noun:
+            <input type="text" id="snoun">
           </li>
         </span>
       </ol>
     </div>
     <p>
       <button id="madlib1">Mad Lib</button>
-      <button class="madlib2">Mad Lib 2</button>
+      <button id="madlib2">Mad Lib 2</button>
     </p>
     <hr />
 
@@ -47,5 +53,6 @@
       "There are too many ___ on this ___ airplane!", I screamed. "Somebody has
       to ___ on the ___ to solve this problem!"
     </p>
+    <p id="vlastp">"Now that those __ are gone, somebody needs to help us!" I screamed from my seat. "Who is willing to ___ that ___for ___?".</p>
   </body>
 </html>

@@ -20,7 +20,8 @@ h1 {
   font-variant: small-caps;
 }
 
-#lastp {
+#lastp,
+#vlastp {
   border: 1px solid orange;
   padding: 20px;
   font-size: 18px;
@@ -45,7 +46,7 @@ li {
   margin-bottom: 10px;
 }
 
-.madlib2 {
+#madlib2 {
   background-color: greenyellow;
   margin-left: 20px;
 }
